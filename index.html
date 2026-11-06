@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Corban Coffee | La Paz</title>
+<meta name="description" content="Corban Coffee: el lugar donde tus momentos se vuelven únicos. Conoce nuestras sucursales en La Paz.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<svg style="display:none" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="bean" viewBox="0 0 100 130" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="square">
+    <path d="M30 8 H48 L62 22 V40"/><path d="M62 40 L28 78 V92"/>
+    <path d="M70 122 H52 L38 108 V90"/><path d="M38 90 L72 52 V38"/>
+    <path d="M14 60 C8 40 20 26 34 22"/><path d="M86 70 C92 90 80 104 66 108"/>
+  </symbol>
+</svg>
+
+<header class="header" id="header">
+  <a href="#inicio" class="brand"><span class="brand-circle"><svg><use href="#bean"/></svg></span><span class="brand-text">Corban<small>coffee</small></span></a>
+  <button class="burger" id="burger" aria-label="Menú"><span></span><span></span><span></span></button>
+  <nav class="nav" id="nav">
+    <a href="#inicio">Inicio</a>
+    <div class="dropdown">
+      <a href="#nosotros">Nosotros ▾</a>
+      <div class="dropdown-menu"><a href="#historia">Nuestra Historia</a><a href="#mision">Misión y Visión</a></div>
+    </div>
+    <a href="#menu">Menú</a>
+    <a href="#merch">Merchandising</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#sucursales">Sucursales</a>
+    <a href="#contacto">Contáctanos</a>
+  </nav>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <svg class="hero-bean"><use href="#bean"/></svg>
+    <h1>La Paz</h1>
+    <h2>Café · Postres · Miraflores</h2>
+    <div class="separator"><span></span><i>☕</i><span></span></div>
+    <p>Una cafetería de Miraflores donde el café, los postres y la atención cercana se encuentran. Visítanos en la calle Villalobos.</p>
+    <a href="#sucursales" class="btn">Cómo llegar</a>
+  </div>
+</section>
+
+<section class="section" id="nosotros">
+  <div class="container two-col" id="historia">
+    <div class="photo-block"><img src="img/exterior.jpg" alt="Fachada de Corban Coffee"></div>
+    <div>
+      <h3 class="title">Nuestra Historia</h3>
+      <div class="separator dark"><span></span><i>☕</i><span></span></div>
+      <p>Jhaneth, nuestra propietaria, dejó un trabajo estable para apostar por su pasión por la pastelería. En noviembre de 2025 nació Corban Coffee, una cafetería de Miraflores donde café, postres y atención cercana se encuentran.</p>
+      <p>Mayo de 2026 nos puso a prueba: la crisis social dificultó el abastecimiento y redujo la afluencia de clientes. Aun así decidimos seguir abiertos y mantener nuestros precios. Corban resistió, y ahora el objetivo es crecer.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="mision">
+  <div class="container cards-2">
+    <article class="card-box"><h3>Misión</h3><p>Ofrecer café, postres y una atención cercana que conviertan cada visita en una pausa agradable en medio de la rutina.</p></article>
+    <article class="card-box"><h3>Visión</h3><p>Ser una cafetería con identidad y prestigio, que más personas conozcan y prueben, sin perder la calidad ni la atención cercana que nos caracteriza.</p></article>
+  </div>
+</section>
+
+<section class="section" id="menu">
+  <div class="container">
+    <h3 class="title center">Menú</h3>
+    <div class="separator dark"><span></span><i>☕</i><span></span></div>
+    <div class="tabs" id="tabs">
+      <button class="active" data-tab="cafes">Cafés</button>
+      <button data-tab="frios">Fríos</button>
+      <button data-tab="comida">Comida</button>
+    </div>
+    <div class="menu-grid" id="menuGrid"></div>
+  </div>
+</section>
+
+<section class="section" id="promos">
+  <div class="container">
+    <h3 class="title center">Promociones</h3>
+    <div class="separator dark"><span></span><i>☕</i><span></span></div>
+    <div class="gallery"><img src="img/promo1.jpg" alt="Promo San Valentín"><img src="img/promo2.jpg" alt="Combo Navideño"><img src="img/interior.jpg" alt="Interior de Corban Coffee"></div>
+  </div>
+</section>
+
+<section class="section alt" id="merch">
+  <div class="container">
+    <h3 class="title center">Merchandising</h3>
+    <div class="separator dark"><span></span><i>☕</i><span></span></div>
+    <div class="cards-3">
+      <article class="product"><div class="thumb">☕</div><h4>Taza Corban</h4><p>Bs 60</p></article>
+      <article class="product"><div class="thumb">🥤</div><h4>Termo Corban</h4><p>Bs 120</p></article>
+      <article class="product"><div class="thumb">🫘</div><h4>Café en grano 250g</h4><p>Bs 70</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="servicios">
+  <div class="container">
+    <h3 class="title center">Servicios</h3>
+    <div class="separator dark"><span></span><i>☕</i><span></span></div>
+    <div class="cards-3">
+      <article class="card-box center"><div class="icon">🍰</div><h4>Postres y pastelería</h4><p>La pasión que dio origen a Corban.</p></article>
+      <article class="card-box center"><div class="icon">🏷️</div><h4>Promos y combos</h4><p>Combos de temporada a precios accesibles.</p></article>
+      <article class="card-box center"><div class="icon">☕</div><h4>Una pausa cerca de ti</h4><p>Ideal para estudiantes, personal médico y quienes pasan por la zona.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="sucursales">
+  <div class="container">
+    <h3 class="title center">Nuestra Sucursal</h3>
+    <div class="separator dark"><span></span><i>☕</i><span></span></div>
+    <div id="branches" class="branches"></div>
+  </div>
+</section>
+
+<section class="section" id="contacto">
+  <div class="container narrow">
+    <h3 class="title center">Contáctanos</h3>
+    <div class="separator dark"><span></span><i>☕</i><span></span></div>
+    <form id="contactForm" class="form">
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <textarea rows="5" placeholder="Mensaje" required></textarea>
+      <button class="btn" type="submit">Enviar mensaje</button>
+      <p class="form-ok" id="formOk" hidden>¡Gracias! Te responderemos pronto.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container foot-grid">
+    <div>
+      <a href="#inicio" class="brand"><span class="brand-circle"><svg><use href="#bean"/></svg></span><span class="brand-text">Corban<small>coffee</small></span></a>
+      <p>Corban Coffee es más que un café, es el lugar donde tus momentos se vuelven únicos junto a tus amigos y familia.</p>
+    </div>
+    <div>
+      <h5>Sucursal Villalobos</h5>
+      <p>Calle Villalobos, Miraflores<br>La Paz, Bolivia</p>
+    </div>
+    <div>
+      <h5>Síguenos</h5>
+      <p class="social"><a href="https://www.instagram.com/corban.coffee" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a></p>
+    </div>
+  </div>
+  <p class="copy">© <span id="year"></span> Corban Coffee. Todos los derechos reservados.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
